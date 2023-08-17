@@ -8,7 +8,7 @@ module.exports = {
         '8': 'repeat(8, minmax(0, 1fr))'
       },
       gridRow: {
-        'span-8': 'span 8 / span 8',
+        'span-9': 'span 9 / span 9',
       }
     },
   },
