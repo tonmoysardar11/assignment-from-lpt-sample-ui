@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import MusicTheory from "./MusicTheory";
 
 const Homepage = () => {
   return (
@@ -7,7 +8,7 @@ const Homepage = () => {
       <div className="grid col-span-12 row-span-1 lg:col-span-1 lg:row-span-8">
         <Navbar />
       </div>
-      <div className="grid col-span-12 row-span-3 lg:col-span-11 row-span-3">Music Theory</div>
+      <div className="grid col-span-12 row-span-3 lg:col-span-11 row-span-3"><MusicTheory/></div>
       <div className="grid col-span-12 row-span-1 lg:col-span-11 row-span-2">Categories</div>
       <div className="grid col-span-12 row-span-2 lg:col-span-11 row-span-2">My Learning</div>
       <div className="grid col-span-12 row-span-1 lg:col-span-11 row-span-1">Button</div>
