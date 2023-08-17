@@ -21,7 +21,7 @@ const TheroyCard = ({item}) => {
         <p className="mx-2 text-gray-600">{item.name}</p>
       </div>
 
-      <div className="flex flex-col justify-start text-black">
+      <div className="flex flex-col justify-start text-black mt-2">
         <p className="m-2 ">{item.class}</p>
         <div className="mx-2 flex justify-between items-center">
           <span className="flex items-center text-sm">
