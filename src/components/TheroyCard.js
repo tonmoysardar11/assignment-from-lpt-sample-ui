@@ -4,14 +4,15 @@ import { faClockFour, faNewspaper, faStar } from "@fortawesome/free-solid-svg-ic
 
 const TheroyCard = ({item}) => {
   return (
-    <div className="w-72 h-full rounded-3xl relative p-2 bg-gray-200 mx-auto md:mx-2 my-2 flex flex-col justify-between">
+  <div className="w-64 md:w-1/4">
+    <div className="h-full rounded-3xl relative p-2 bg-gray-200 mx-auto md:mx-2 my-2 flex flex-col justify-between">
       <div className="absolute top-5 right-5 bg-black w-8 h-8 rounded-full overflow-hidden flex justify-center items-center">
         <FontAwesomeIcon icon={faNewspaper} className="text-gray-100 text-md" />
       </div>
 
       <img
         src={item.img}
-        alt="sample card image"
+        alt="sample card"
         className="w-full h-36 rounded-2xl mx-auto"
       />
       <div className="absolute top-32 left-5 bg-white flex justify-start items-center rounded-full p-1 w-1/2">
@@ -37,6 +38,7 @@ const TheroyCard = ({item}) => {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 };

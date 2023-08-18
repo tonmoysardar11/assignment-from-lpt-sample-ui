@@ -6,7 +6,7 @@ import MyLearning from "./MyLearning";
 
 const Homepage = () => {
   return (
-    <div className="h-screen w-screen grid grid-cols-12 grid-rows-9 gap-2">
+    <div className="h-[100vh] w-[100vw] grid grid-cols-12 grid-rows-9">
       <div className="grid col-span-12 row-span-1 lg:col-span-1 lg:row-span-9">
         <Navbar />
       </div>

@@ -12,7 +12,7 @@ const MyLearning = () => {
           <div class="relative flex border-2 rounded-3xl border-gray-200 border-opacity-90 p-2 w-full">
             <img
               src={card}
-              alt="sample card image"
+              alt="sample card"
               className="h-full w-36 rounded-2xl"
             />
             <div className="absolute top-3 right-3 bg-white w-6 h-6 rounded-full overflow-hidden flex justify-center items-center">
