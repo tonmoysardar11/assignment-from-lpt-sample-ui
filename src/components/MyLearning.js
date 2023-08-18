@@ -41,9 +41,9 @@ const MyLearning = () => {
                 <div className="relative flex flex-col justify-between items-start ml-4 w-full">
                   <div
                   style={{width:`${100 - element.completed}%` }}
-                    className={`absolute top-12 right-3 h-1 bg-gray-500`}
+                    className={`absolute top-12 right-3 h-1 bg-gray-300`}
                   ></div>
-                  <span>
+                  <span className="text-left">
                     <h2 className="text-gray-900 text-lg title-font font-semibold">
                       {element.name}
                     </h2>
@@ -56,7 +56,7 @@ const MyLearning = () => {
           );
         })}
       </div>
-      <button className="bg-black text-white font-semibold px-10 py-1 my-2 rounded-full">View All</button>
+      <button className="bg-black text-white font-semibold px-10 py-1 my-2 rounded-full hover:bg-white hover:text-black border-2 border-black hover:border-gary-500">View All</button>
     </div>
   );
 };

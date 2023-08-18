@@ -25,21 +25,21 @@ const MusicTheory = () => {
         img:card
     },
     {
-        name:'David',
+        name:'Michael',
         profile: profile,
-        class: 'Music Theory',
-        time: '2h 30m',
-        rating: 4.8,
-        price: '$25',
+        class: 'Piano Basics',
+        time: 'Learn',
+        rating: 4.6,
+        price: 'Start',
         img:card
     },
     {
-        name:'David',
+        name:'Sophia',
         profile: profile,
         class: 'Music Theory',
-        time: '2h 30m',
-        rating: 4.8,
-        price: '$25',
+        time: '1h 17m',
+        rating: 4.1,
+        price: 'Start',
         img:card
     }
 

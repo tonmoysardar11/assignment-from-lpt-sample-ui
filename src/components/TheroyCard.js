@@ -33,9 +33,9 @@ const TheroyCard = ({item}) => {
             <FontAwesomeIcon icon={faStar} />
             <p className="mx-2">{item.rating}/5</p>
           </span>
-          <span className="flex justify-center items-center text-sm bg-gray-100 p-2 rounded-full w-16">
-            <p>{item.price}</p>
-          </span>
+          <button className="flex justify-center items-center text-sm bg-gray-100 p-2 rounded-full w-16">
+            {item.price}
+          </button>
         </div>
       </div>
     </div>
