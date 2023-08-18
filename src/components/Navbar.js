@@ -12,9 +12,9 @@ import {
 
 const Navbar = () => {
   return (
-    <div className="bg-black w-full h-full p-2 flex flex-row lg:flex-col justify-between items-center">
+    <div className="bg-black w-screen md:w-full h-full p-2 flex flex-row lg:flex-col justify-center md:justify-between items-center">
       <div className="flex flex-row lg:flex-col justify-center items-center">
-        <div className="rounded-full w-20 h-20 overflow-hidden mx-8 lg:my-8 lg:mx-0">
+        <div className="rounded-full w-8 h-8 md:w-10 md:h-10 lg:w-20 lg:h-20 overflow-hidden mx-4 lg:my-8 lg:mx-0">
           <img
             alt="profile"
             className="object-cover object-center h-full w-full"

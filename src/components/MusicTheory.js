@@ -45,9 +45,9 @@ const MusicTheory = () => {
 
 ]
   return (
-    <div className='max-h-full text-center md:text-left lg:mr-36'>
-    <h1 className='text-3xl text-black mb-6 mx-6'>Music Theory</h1>
-    <div className='w-full flex flex-wrap justify-center lg:justify-between items-center px-4'>
+    <div className='max-h-full  text-center md:text-left'>
+    <h1 className='text-2xl text-black m-6'>Music Theory</h1>
+    <div className='w-screen md:w-full flex flex-wrap justify-center lg:justify-between items-center px-4'>
       {cardData.map((element,index)=>{
         return <TheroyCard key={index} item={element}/>
       })}

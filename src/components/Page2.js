@@ -5,7 +5,7 @@ import { faGuitar } from "@fortawesome/free-solid-svg-icons";
 
 const Page2 = () => {
   return (
-    <div className="w-screen h-max md:h-screen p-4 md:p-8 lg:p-10">
+    <div className="max-w-screen max-h-max md:h-[100vh] p-4 md:p-8 lg:p-10">
       <div className="w-full h-full rounded-3xl bg-gray-200 border-gray-200 border-2 flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <div className="flex flex-col justify-center items-start w-2/3 lg:w-1/2 m-5">
