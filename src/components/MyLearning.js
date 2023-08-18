@@ -20,8 +20,8 @@ const MyLearning = () => {
   ];
 
   return (
-    <div className="max-h-full text-center md:text-left lg:mr-36">
-      <h1 className="text-3xl text-black mb-6 mx-6">My Learnings</h1>
+    <div className="max-h-full text-center lg:mr-36">
+      <h1 className="text-3xl md:text-left text-black mb-6 mx-6">My Learnings</h1>
       <div className="flex flex-wrap justify-start items-center px-4">
         {data.map((element, index) => {
           return (
@@ -56,6 +56,7 @@ const MyLearning = () => {
           );
         })}
       </div>
+      <button className="bg-black text-white font-semibold px-10 py-1 my-2 rounded-full">View All</button>
     </div>
   );
 };
