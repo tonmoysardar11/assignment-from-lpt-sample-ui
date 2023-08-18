@@ -44,7 +44,7 @@ const MyLearning = () => {
                         className="text-black text-sm"
                       />
                     </div>
-                    <div className="flex flex-col justify-start items-start">
+                    <div className="flex flex-col justify-between items-start">
                       <h2 className="text-gray-900 text-lg title-font font-semibold">
                         {element.name}
                       </h2>
