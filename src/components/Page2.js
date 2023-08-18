@@ -22,9 +22,9 @@ const Page2 = () => {
                 discover tips to help you master your instrument. Stay updated
                 with the latest news.
               </p>
-              <button className="px-3 py-2 rounded-full bg-white w-1/2 text-sm">
-                Start Learning
-              </button>
+              <button className="w-1/2 bg-white text-black font-semibold px-10 py-1 my-4 rounded-full hover:bg-black hover:text-white">
+        View All
+      </button>
             </div>
           </div>
         </div>
