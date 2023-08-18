@@ -42,9 +42,9 @@ const Category = () => {
     },
   ];
   return (
-    <div className='max-h-full text-center md:text-left lg:mr-36'>
+    <div className='max-h-full max-w-full text-center md:text-left lg:mr-36'>
       <h1 className="text-3xl text-black mb-6 mx-6">Categories</h1>
-      <div className="flex justify-between items-center px-5">
+      <div className="flex flex-wrap justify-center lg:justify-between items-center px-5">
         {categoryList.map((element, index) => {
           return (
             <div key={index} className="w-36 p-3 rounded-xl bg-transparent hover:bg-gray-300 text-center cursor-pointer m-2 border-gray-300 border-2">

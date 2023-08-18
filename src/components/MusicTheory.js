@@ -16,12 +16,12 @@ const MusicTheory = () => {
         img:card
     },
     {
-        name:'David',
+        name:'Emily Lee',
         profile: profile,
-        class: 'Music Theory',
-        time: '2h 30m',
-        rating: 4.8,
-        price: '$25',
+        class: 'Guitar Techniques',
+        time: '1h 45m',
+        rating: 4.5,
+        price: '$19',
         img:card
     },
     {
@@ -47,7 +47,7 @@ const MusicTheory = () => {
   return (
     <div className='max-h-full text-center md:text-left lg:mr-36'>
     <h1 className='text-3xl text-black mb-6 mx-6'>Music Theory</h1>
-    <div className='w-full flex flex-wrap justify-between items-center px-4'>
+    <div className='w-full flex flex-wrap justify-center lg:justify-between items-center px-4'>
       {cardData.map((element,index)=>{
         return <TheroyCard key={index} item={element}/>
       })}
